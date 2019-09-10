@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { AlvaroComponent } from './alvaro/alvaro.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AlvaroComponent
   ],
   imports: [
     BrowserModule
