@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { TelaCadastroComponent } from './tela-cadastro/tela-cadastro.component';
+import { TelaFinalComponent } from './tela-final/tela-final.component';
 
 
 
@@ -11,7 +12,9 @@ import { TelaCadastroComponent } from './tela-cadastro/tela-cadastro.component';
   declarations: [
     AppComponent,
 
-    TelaCadastroComponent
+    TelaCadastroComponent,
+
+    TelaFinalComponent
   
   ],
   imports: [

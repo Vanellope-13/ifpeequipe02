@@ -1,0 +1,29 @@
+ h1{
+font-family:verdana ;
+position: absolute; 
+	left: 100px; /* posiciona a 90px para a esquerda */ 
+	top: 0px; /* posiciona a 70px para baixo */
+ }
+
+  header {
+  min-height: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid rgb(18, 1, 250);
+  background: rgb(55, 1, 248);
+  z-index: 2;
+}
+
+
+.send {
+  background: none;
+  color: rgb(4, 8, 247);
+  border: 1px solid rgb(3, 40, 250);
+  border-radius: 70px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  padding: 15px 70px;
+}	
